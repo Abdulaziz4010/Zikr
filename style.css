@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  background-image: url(./images/zikr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media (min-width: 350px) {
+  body {
+    width: 100%;
+    margin-top: 460px;
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .jami {
+        font-size: 25px;
+        color: gray;
+      }
+      .cards {
+        display: flex;
+        flex-direction: column;
+        .plus {
+          width: 100%;
+          padding: 18px 100px;
+          font-size: 20px;
+          background-color: rgba(0, 128, 0, 0.734);
+        }
+        .reset {
+          width: 100%;
+          padding: 10px 100px;
+          font-size: 16px;
+          background-color: rgba(0, 128, 0, 0.734);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 560px) {
+  body {
+    width: 100%;
+    margin-top: 470px;
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .jami {
+        font-size: 25px;
+        color: wheat;
+      }
+      .cards {
+        display: flex;
+        flex-direction: column;
+        .plus {
+          width: 100%;
+          padding: 18px 100px;
+          font-size: 20px;
+          background-color: rgba(0, 128, 0, 0.734);
+        }
+        .reset {
+          width: 100%;
+          padding: 10px 100px;
+          font-size: 16px;
+          background-color: rgba(0, 128, 0, 0.734);
+        }
+      }
+    }
+  }
+}
