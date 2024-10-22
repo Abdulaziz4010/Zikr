@@ -42,7 +42,6 @@ p {
     .card {
       display: flex;
       flex-direction: column;
-     
       gap: 20px;
       .jami {
         font-size: 25px;
